@@ -16,7 +16,7 @@ export class EditAlbumComponent implements OnInit {
   ngOnInit() {
   }
 
-  beginUpdatingAlbum(albumToUpdate) {
+  beginUpdatedAlbum(albumToUpdate) {
     this.albumService.updateAlbum(albumToUpdate);
   }
 
